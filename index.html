@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shwe Htike</title>
+    <link rel="shortcut icon" href="./myportfolio/img/footer pic.png" type="image/x-icon">
+    <!-- css link  -->
+    <link rel="stylesheet" href="./myportfolio/style.css">
+    <link rel="stylesheet" href="./myportfolio/responsive.css">
+    <!-- bootstrap css link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- fontawesome link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- gsap links -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js" integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js" integrity="sha512-AMl4wfwAmDM1lsQvVBBRHYENn1FR8cfOTpt8QVbb/P55mYOdahHD4LmHM1W55pNe3j/3od8ELzPf/8eNkkjISQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+</head>
+<body>
+ <!-- home page start -->
+<div class="toggle toggle-btn" id="toggle">
+    <span class="btn-toggle">
+        <i class="fa-solid fa-bars"></i>
+        <i class="fa-solid fa-xmark"></i>
+    </span>
+</div>
+
+
+<section class="home-page">
+<!-- navbar start -->
+<nav class="navbar">
+    <a href="index.html">
+        <div class="left-nav animation">
+            <div class="first"><div><i class="fa-regular fa-copyright"></i> Code by Shwe Htike</div></div>
+            <div class="second"><div><i class="fa-regular fa-copyright"></i> Web Developer</div></div>
+            <div class="third"><div><i class="fa-regular fa-copyright"></i> Graphic Designer</div></div>
+        </div>
+    </a>
+    <div class="right-nav">
+        <a href="../work/work.html" class="nav-work">
+            <div class="right-nav-items work-nav">work</div>
+        </a>
+        <a href="../about/about.html" class="nav-about">
+            <div class="right-nav-items about-nav">about</div>
+        </a>
+        <a href="./contact/contact.html" class="nav-contact">
+            <div class="right-nav-items contact-nav">contact</div>
+        </a>
+
+        <!-- <a>
+            <div class="nav-toggle"><i class="fa-solid fa-bars"></i></div>
+        </a> -->
+        
+    </div>
+</nav>
+ <!-- navbar end -->
+<div class="home-items">
+    <div class="home-img">
+        <img src="./myportfolio/img/hep.PNG" alt="" id="myphoto">
+    </div>
+    <div class="home-text">
+        <span><i class="fa-solid fa-angles-right hidden" style="color: #000000;"></i></span>
+        <h2 class="hidden">I am Freelance</h2>
+        <h1 class="hidden">Designer & Developer</h1>
+    </div>
+</div>
+</section>
+
+<!-- side nav bar action start -->
+<section class="side-nav">
+    <div class="navigation">
+        <h5>NAVIGATION</h5>
+    </div>
+    <div class="side-navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="./work/work.html">Work</a></li>
+            <li><a href="./about/about.html">About</a></li>
+            <li><a href="./contact/contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <h5>SOCIALS</h5>
+    <div class="side-socials">
+        <a href="https://www.facebook.com/llaw.liet.520/" class="socials" target="_blank">Facebook</a>
+        <a href="https://www.instagram.com/shwe_htaik/" class="socials" target="_blank">Instagram</a>
+        <a href="https://www.linkedin.com/in/shwe-htike-091b01271" class="socials" target="_blank">LinkedIn</a>
+    </div>
+
+    <!-- <div class="sideclose sideclose-btn" id="sideclose">
+        <span class="btn-sideclose">
+            <i class="fa-solid fa-xmark"></i>
+        </span>
+    </div> -->
+
+</section>
+ <!-- home page end -->
+ <!-- work section start -->
+ <section class="work">
+    <div class="row">
+        <div class="col-md-6 offset-md-1 left-work-text">
+            <span class="hidden">
+                Helping brands to stand out in the digital era.
+                Together we will set the new status quo. NO 
+                nonsense, always on the cutting edge.
+            </span>
+        </div>
+        <div class="col-md-3 offset-md-1 right-work-text">
+            <span class="hidden">The combiantion of my passion for design, code & interaction
+                positions me in a unique place in the web design world.
+            </span> <br>
+            <a href="./about/about.html" class="aboutme-btn">
+                <button class="btn btn-outline-dark rounded-pill btn-aboutme">About me</button>
+            </a>
+        </div>
+    </div>
+ </section>
+ <!-- work seciton end -->
+ <!-- recent work section start  -->
+
+<div class="cursor"></div>
+<div class="hand">
+    <h4>View</h4>
+</div>
+ <section class="recentwork">
+    <div class="recent-title hidden">RECENT WORK</div>
+    
+    <div class="work-item hoverItem">
+
+        <a href="https://chocoreview.netlify.app/" target="_blank">
+            <div class="work-items hidden">
+                <h2 class="work-left-text ">Movie review</h2>
+                <div class="work-right-text ">Design & Development</div>
+            </div>
+            <div class="img-wrapper">
+                <img src="./img/sneaker.png" alt="">
+            </div>
+        </a>
+
+        <a href="https://choco-sneakershop.netlify.app/" target="_blank">
+            <div class="work-items hidden">
+                <h2 class="work-left-text ">Sneaker</h2>
+                <div class="work-right-text ">Design & Development</div>
+            </div>
+            <div class="img-wrapper">
+                <img src="./img/sneaker.png" alt="">
+            </div>
+        </a>
+        
+        <a href="https://choco-thenature.netlify.app/" target="_blank">
+            <div class="work-items hidden">
+                <h2 class="work-left-text">Nature</h2>
+                <div class="work-right-text">Design & Development</div>
+            </div>
+            <div class="img-wrapper">
+                <img src="./img/movies.png" alt="">
+            </div>
+        </a>
+
+        <a href="https://choco-drink.netlify.app/" target="_blank">
+            <div class="work-items hidden">
+                <h2 class="work-left-text">Drink</h2>
+                <div class="work-right-text">Design & Development</div>
+            </div>
+            <div class="img-wrapper">
+                <img src="./img/portfolio.png" alt="">
+            </div>
+        </a>
+
+    </div>
+   
+    <a href="../work/work.html" class="work-btn hidden box-hover">
+        <button class="btn btn-outline-dark rounded-pill more-work-btn"><div class="title">More work</div></button>
+    </a>
+
+    <span class="SkewedOne"></span>
+    <span class="SkewedTwo"></span>
+ </section>
+ <!-- recent work section end -->
+
+ <!-- contact section start -->
+<section class="contact" id="contact">
+    <div class="row ">
+        <div class="col-md upper-contact">
+            <h2 class="text-white hidden"><img style="width: 70px;" src="./myportfolio/img/footer pic.png" alt="" class="footer-pic">  Let's work<br>
+                together
+            </h2>
+            
+        </div>
+        <div class="col-md get-btn">
+            <a href="./contact/contact.html"><div class="btn btn-primary rounded-pill btn-get">Get in touch</div></a>
+        </div>
+        <!-- <div class="col-md-5">
+            <div class="words word-1">
+                <span>C</span>
+                <span>O</span>
+                <span>D</span>
+                <span>E</span>
+              </div>
+              
+              <div class="words word-2">
+                <span>W</span>
+                <span>I</span>
+                <span>T</span>
+                <span>H</span>
+              </div>
+              
+              <div class="words word-3">
+                <span>M</span>
+                <span>E</span>
+                <span>!</span>
+              </div>
+        </div> -->
+    </div>
+    
+    <div class="row ">
+        <div class="col-md lower-contact">
+            <a href="mailto:shwehtike7587@gmail.com" class="contact-btn email-btn">
+                <button class="btn btn-outline-light rounded-pill"><div class="btn-email">shwehtike7587@gmail.com</div></button>
+            </a>
+            <a href="tel:+959750087997" class="contact-btn phone-btn">
+                <button class="btn btn-outline-light rounded-pill"><div class="btn-phone">+959750087997</div></button>
+            </a>
+        </div>
+    </div>
+</section>
+ <!-- contact section end -->
+ <!-- footer start -->
+ <section class="footer">
+    <div class="row">
+        <div class="col-md-8 footer-left">
+            <div class="foot-text text-white">
+                <span class="footer-title">VERSION</span> <br>
+                <h3 class="foot-left-text text-white">2024 Edition</h3>
+            </div>
+            <div class="foot-text text-white">
+                <span class="footer-title">LOCAL TIME</span> <br>
+                <h3 id="displayTime" class="foot-left-text text-white">11:50AM</h3>
+            </div>
+        </div>
+        <div class="col-md-4 footer-right">
+            <span class="text-white footer-title">SOCIALS</span>
+            <div class="foot-right-text">
+                <a href="https://www.facebook.com/llaw.liet.520/" class="text-white socials" target="_blank">Facebook</a>
+                <a href="https://www.instagram.com/shwe_htaik/" class="text-white socials" target="_blank">Instagram</a>
+                <a href="https://www.linkedin.com/in/shwe-htike-091b01271" class="text-white socials" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </div>
+ </section>
+ <!-- footer end -->
+</body>
+
+<!-- bootstrap js link  -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+<!-- Ghover lib link -->
+<script src="https://cdn.jsdelivr.net/gh/GA-MO/g-hover@38cd05a2/lib/ghover.js"></script>
+<script src="./myportfolio/ghover.js"></script>
+
+<!-- js link -->
+<script src="./myportfolio/app.js" type="module" defer></script>
+</html>

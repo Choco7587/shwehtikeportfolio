@@ -1,0 +1,442 @@
+@media (max-width: 1195px) {
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .title{
+        margin-top: -5px;
+    }
+}
+
+
+
+
+@media (max-width: 989px) {
+
+    .footer{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .foot-left-text{
+        font-size: 1rem;
+    }
+    .socials{
+        font-size: 1rem;
+    }
+
+    .upper-contact h2{
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 769px){
+    .home-img img{
+        width: 50%;
+        right: 0%;
+    }
+    .work{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .left-work-text{
+        font-size: 1.3rem;
+        text-align: justify;
+        padding-top: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .right-work-text{
+        font-size: 1.2rem;
+        text-align: justify;
+        padding-top: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .aboutme-btn button{
+        position: absolute;
+        margin-top: 50px; 
+        padding: 15px 35px 15px 35px;
+        right: 10px;
+    }
+
+    .contact{
+        position: relative;
+    }
+
+    .upper-contact{
+        position: relative;
+        min-height: 30vh;
+    }
+
+    .upper-contact h2::after{
+        width: 160%;
+        bottom: -50px;
+    }
+    .get-btn{
+        position: absolute;
+        bottom: 35%;
+        left: 0;
+    }
+
+    .foot-right-text{
+        margin: 0;
+    }
+
+    .side-nav {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 662px){
+    .contact-btn{
+        margin: 0;
+    }
+
+    .upper-contact h2::after{
+        width: 120%;
+    }
+}
+
+@media (max-width: 631px){
+    .work-items::after{
+        bottom: -3px;
+    }
+    .work-left-text{
+        font-size: 2rem;
+        padding-bottom: 1rem;
+        padding-left: 0;
+    }
+    .work-right-text{
+        padding-right: 0;
+    }
+
+    .contact{
+        padding: 0;
+        position: relative;
+    }
+
+    .upper-contact{
+        display: block;
+        margin-top: 50px;
+    }
+    .upper-contact h2{
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .upper-contact h2::after{
+        left: 60px;
+        width: 80%;
+    }
+
+    .get-btn{
+        display: inline;
+        margin-bottom: 30px;
+    }
+
+    .get-btn .btn-get{
+        padding: 10px 30px 10px 30px;
+    }
+
+    .lower-contact{
+        display: flex;
+        justify-content: center;
+    }
+
+    .SkeweOne{
+        display: none;
+    }
+    .SkeweTwo{
+        display: none;
+    }
+}
+
+@media (max-width: 559px){
+    .left-work-text{
+        font-size: 1.2rem;
+    }
+    .right-work-text{
+        font-size: 1.1rem;
+    }
+    .get-btn{
+        display: none;
+    }
+}
+@media (max-width: 515px){
+    .left-work-text{
+        font-size: 1.2rem;
+    }
+    .right-work-text{
+        font-size: 1.1rem;
+    }
+    .aboutme-btn button{
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 471px){
+    .fa-angles-right{
+        font-size: 1rem;
+    }
+    .home-text h2{
+        font-size: 1.5rem;
+    }
+    .home-text h1{
+        font-size: 2.05rem;
+    }
+
+    .home-text{
+        left: 30px;
+    }
+
+    .contact-btn button{
+        padding: 10px 20px 10px 20px;   
+    }
+
+    .left-work-text{
+        font-size: 1.1rem;
+    }
+    .right-work-text{
+        font-size: 1rem;
+    }
+    .aboutme-btn button{
+        padding: 10px 25px 10px 25px;
+
+    }
+}
+
+@media (max-width: 451px){
+    .left-nav{
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+    .footer-pic{
+        max-width: 50px;
+    }
+    .contact{
+        padding-top: 30px;
+    }
+
+    .upper-contact h2{
+        font-size: 2.3rem;
+        line-height: 60px;
+    }
+
+    .get-btn{
+       display: none;
+    }
+
+    .lower-contact{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 40px;
+    }
+
+    .footer-title{
+        font-size: 8px;
+    }
+
+    .footer-left-text{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 437px) {
+    .left-nav{
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+    .left-nav div{
+        font-size: 0.7rem;
+    }
+    .recent-title{
+        font-size: 0.7rem;
+    }
+    .work-left-text{
+        font-size: 1.2rem;
+    }
+    .work-right-text{
+        font-size: 0.8rem;
+    }
+    .footer-title{
+        font-size: 0.5rem;
+    }
+    .foot-left-text{
+        font-size: 0.8rem;
+    }
+    .foot-right-text a{
+        font-size: 0.9rem;
+    }
+
+}
+
+@media (max-width: 415px){
+    .upper-contact h2::after{
+        display: none;
+    }
+
+    .toggle{
+        width: 50px;
+        height: 50px;
+        right: 2rem;
+    }
+
+    .toggle i{
+        font-size: 1rem;
+    }
+
+    .side-nav {
+        width: 100%;
+        height: 100%;
+    }
+    .upper-contact{
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+    }
+}
+
+@media (max-width: 391px){
+
+    .navbar{
+        display: flex;
+        width: 100%;
+        background-color:rgb(251, 243, 243);
+        height: 8vh;
+        align-items: center;
+        justify-content: space-between;
+        position: absolute;
+        top: 1;
+        z-index: 10;
+        box-shadow: none;
+    }
+
+    .home-img img{
+        width: 350px;
+        position: absolute;
+        left: 30px;
+        top: 200px;
+    }
+
+    .work{
+        max-height: 60vh;
+    }
+
+    .work-page{
+        max-height: 50vh;
+    }
+
+    .container {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container img{
+        position: absolute;
+        top: 50px;
+        left:0;
+        width:100%;
+        transform: translateY(-50px);
+    }
+
+    .left-nav{
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+    .right-nav{
+        padding: 0;
+    }
+    .left-nav div{
+        font-size: 0.7rem;
+    }
+
+    .recentwork{
+        min-height: 70vh;
+        padding: 0px 20px 0px 20px;
+    }
+
+    /* .work-btn{
+        display: ;
+    } */
+
+    .upper-contact{
+        padding-top: 100px;
+    }
+    .upper-contact h2::after{
+        display: none;
+    }
+    .aboutme-btn{
+        margin-top: 20px;
+    }
+
+    .contact{
+        max-height: 70vh;
+    }
+
+    .contact-btn button{
+        padding: 20px 40px 20px 40px;
+        margin: 30px;
+    }
+
+    .footer{
+        max-height: 20vh;
+    }
+}
+@media (max-width: 348px) {
+    .home-text h2{
+        font-size: 1.5rem;
+    }
+    .home-text h1{
+        font-size: 1.6rem;
+    }
+
+    .aboutme-btn{
+        margin-top: 1rem;
+    }
+    .upper-contact h2::after{
+        display: none;
+    }
+}
+
+@media (max-width: 338px) {
+    .left-nav{
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+    .work{
+        min-height: 80vh;
+    }
+}
+@media (max-width: 328px) {
+    .left-nav{
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+}
+@media (max-width: 281px){
+    .left-nav{
+        padding-top: 10px;
+    }
+    .right-nav a{
+        margin: 0;
+    }
+}
+
+@media(orientation: portrait){
+    .cursor{
+        display: none;
+    }
+    .hand{
+        display: none;
+    }
+}

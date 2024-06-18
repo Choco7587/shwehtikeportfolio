@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-Shwe Htike</title>
+    <link rel="shortcut icon" href="../myportfolio/img/footer pic.png" type="image/x-icon">
+    <!-- css link -->
+    <link rel="stylesheet" href="./contact.css">
+    <link rel="stylesheet" href="./contrespon.css">
+    <!-- bootstrap css link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- gsap links -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js" integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js" integrity="sha512-AMl4wfwAmDM1lsQvVBBRHYENn1FR8cfOTpt8QVbb/P55mYOdahHD4LmHM1W55pNe3j/3od8ELzPf/8eNkkjISQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <!-- fontawesome link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+
+    <div class="toggle toggle-btn" id="toggle">
+        <span class="btn-toggle">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-xmark"></i>
+        </span>
+    </div>
+
+<!-- side nav bar action start -->
+<section class="side-nav">
+    <div class="navigation">
+        <h5>NAVIGATION</h5>
+    </div>
+    <div class="side-navbar">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../work/work.html">Work</a></li>
+            <li><a href="../about/about.html">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+    <h5>SOCIALS</h5>
+    <div class="side-socials">
+        <a href="https://www.facebook.com/llaw.liet.520/" class="socials" target="_blank">Facebook</a>
+        <a href="https://www.instagram.com/shwe_htaik/" class="socials" target="_blank">Instagram</a>
+        <a href="" class="socials" target="_blank">LinkedIn</a>
+    </div>
+</section>   
+ 
+<!-- navbar start  -->
+    <nav class="navbar">
+        <a href="../index.html">
+            <div class="left-nav animation">
+                <div class="first text-white"><div><i class="fa-regular fa-copyright"></i> Code by Shwe Htike</div></div>
+                <div class="second text-white"><div><i class="fa-regular fa-copyright"></i> Web Developer</div></div>
+                <div class="third text-white"><div><i class="fa-regular fa-copyright"></i> Graphic Designer</div></div>
+            </div>
+        </a>
+        <div class="right-nav">
+            <a href="../work/work.html" class="nav-work">
+                <div class="right-nav-items work-nav">work</div>
+            </a>
+            <a href="../about/about.html" class="nav-about">
+                <div class="right-nav-items about-nav">about</div>
+            </a>
+            <a href="#" class="nav-contact">
+                <div class="right-nav-items contact-nav">contact</div>
+            </a>
+    
+            <a>
+                <div class="nav-toggle"><i class="fa-solid fa-bars"></i></div>
+            </a>
+        </div>
+    </nav>
+    <!-- navbar end -->
+    
+    <!-- contact page start  -->
+<div class="scrollContainer">
+    <section class="contact">
+        <div class="title">
+                <h1 class="title-text">
+                    Let's start a <br>
+                    project together
+                </h1>
+                <img style="width: 100px; height: 100px;" src="../myportfolio/img/footer pic.png" alt="">
+                <span class="material-symbols-outlined icon">south_east</span>
+        </div>
+        <section class="row">
+            <div class="col-md-6 offset-1 big-parent">
+                <div class="left-contact">
+                    
+                    <!-- <small class="text-danger ms-5">This feature will not available for now!</small><br>
+                    <small class="text-danger ms-5">So you can contact me via Facebook or Email.</small> -->
+                    
+                    
+                    <form action="https://formspree.io/f/mpzvgavr" method=post id="contact-form">
+                        <div class="form-col text-white parent ">
+                            <h5>01</h5>
+                            <label for="one">What's your name?</label>
+                            <input name="name" id="one" class="form-control" type="text" placeholder="Enter your name*" required>
+                        </div>
+    
+                        <div class="form-col text-white parent ">
+                            <h5>02</h5>
+                            <label for="two">What's your email?</label>
+                            <input name="email" id="two" class="form-control" type="email" placeholder="Enter your email*" required>
+                        </div>
+    
+                        <div class="form-col text-white parent ">
+                            <h5>03</h5>
+                            <label for="three">What's the name of your organization?</label>
+                            <input name="orgName" id="three" class="form-control" type="text" placeholder="Enter your Organization name*">
+                        </div>
+    
+                        <div class="form-col text-white parent ">
+                            <h5>04</h5>
+                            <label for="four">What services are you looking for?</label>
+                            <input name="service" id="four" class="form-control" type="text" placeholder="Web design, Web development..." required>
+                        </div>
+    
+                        <div class="form-col text-white parent ">
+                            <h5>05</h5>
+                            <label for="five">Your message</label>
+                            <input name="message" id="five" class="form-control" type="text" placeholder="Hi Choco, Can you help me with..." required>
+                        </div>
+                        <button type="submit" class=" rounded-pill send-btn" name="sendBtn">Send it!</button>
+                    </form>
+                    <div class="line"></div> 
+                </div>
+            </div>
+            <div class="col-md-3 offset-1">
+                <div class="right-contact text-white">
+                    <h5 class="">CONTACT DETAILS</h5>
+                    <a href="mailto:shwehtike7587@gmail.com"><div class="">shwehtike7587@gmail.com</div></a>
+                    <a href="tel:+959750087997"><div class="">+959750087997</div></a>
+
+                    <h5 class="">BUSINESS DETAILS</h5>
+                    <div class="">Shwe Htike</div>
+                    <div class="">Yangon, Myanmar</div>
+
+                    <h5 class="">CONTACT DETAILS</h5>
+                    <div class="social-list">
+                        <a href="https://www.facebook.com/llaw.liet.520/" target="_blank">Facebook</a>
+                        <a href="https://www.instagram.com/shwe_htaik/" target="_blank">Instagram</a>
+                        <a href="https://www.linkedin.com/in/shwe-htike-091b01271" target="_blank">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </section> 
+    </section>
+</div>
+
+    <section class="footer">
+        <div class="row">
+            <div class="col-md-8 footer-left">
+                <div class="foot-text text-white">
+                    <span class="footer-title">VERSION</span> <br>
+                    <h3 class="foot-left-text text-white">
+                    <span>2.1</span>
+                    2024 Edition</h3>
+                </div>
+                <div class="foot-text text-white local-time">
+                    <span class="footer-title">LOCAL TIME</span> <br>
+                    <h3 id="displayTime" class="foot-left-text text-white">11:50AM</h3>
+                </div>
+            </div>
+            <div class="col-md-4 footer-right social-contact">
+                <span class="text-white footer-title">SOCIALS</span>
+                <div class="foot-right-text">
+                    <a href="https://www.facebook.com/llaw.liet.520/" class="text-white socials" target="_blank">Facebook</a>
+                    <a href="https://www.instagram.com/shwe_htaik/" class="text-white socials" target="_blank">Instagram</a>
+                    <a href="https://www.linkedin.com/in/shwe-htike-091b01271" class="text-white socials" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <section class="message">
+        <!-- <h5>The developer is working to fully responsive ...</h5> -->
+        <h4 id="right-serve"><i class="fa-regular fa-copyright"></i> 2023 Shwe Htike. All Rights Reserved.</h4>
+    </section>
+</div>
+
+<div class="patch">
+    <div>
+        <h3>Inbox</h3>
+        <div>name = <span id="name"></span> </div>
+        <div>email = <span id="email"></span> </div>
+        <div>organizar name = <span id="orgName"></span> </div>
+        <div>service = <span id="service"></span> </div>
+        <div>message = <span id="message"></span> </div>
+
+    </div>
+</div>
+</body>
+<script src="contact.js" type="module" defer></script>
+<!-- bootstrap js link  -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<!-- Ghover link -->
+<script src="https://cdn.jsdelivr.net/gh/GA-MO/g-hover@38cd05a2/lib/ghover.js"></script>
+
+<!-- bootstrap link -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+</html>
