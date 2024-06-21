@@ -49,7 +49,7 @@ let title = document.getElementById('title');
 
 const mm = window.matchMedia("(max-width: 391px)");
 
-function myFunction(mm) {
+// function myFunction(mm) {
     if (mm) {
         window.addEventListener('scroll', () => {
             let value = window.scrollY;
@@ -60,19 +60,14 @@ function myFunction(mm) {
             bg.style.top = value * 0.2 + 'px';
             title.style.marginTop = value * -1 + 'px';
         });
-
-        console.log ("hello world");
-    } else{
-        
-        console.log("OK");
     }
-  }
+  
 
-  myFunction();
+//   myFunction();
 
-  mm.addEventListener("change", function() {
-    myFunction(mm);
-  });
+//   mm.addEventListener("change", function() {
+//     myFunction(mm);
+//   });
 
   //end
 

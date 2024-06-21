@@ -50,6 +50,8 @@ var today = new Date();
 document.getElementById("displayTime").innerHTML = Date() ;
 
 
+
+
 // sending email section
 
 // let submit = document.querySelector('.send-btn');

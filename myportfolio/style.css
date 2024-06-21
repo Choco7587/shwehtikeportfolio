@@ -368,7 +368,7 @@ html::-webkit-scrollbar-thumb {
     right: 90px;
     top: 30px;
     z-index: 3;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .home-img img:hover{
@@ -377,8 +377,8 @@ html::-webkit-scrollbar-thumb {
 
 .fa-angles-right{
     font-size: 30px;
-    transition: 0.1s;
-    margin-bottom: 15px;
+    margin-bottom: 2rem;
+    transition: 0.2s;
 }
 .fa-angles-right:hover{
     transform: rotate(45deg);
@@ -395,6 +395,7 @@ html::-webkit-scrollbar-thumb {
 .home-text h2{
  font-size: 40px;
  transition: 0.2s;
+ margin-bottom: 1rem;
 }
 
 .home-text h2:hover{

@@ -439,4 +439,8 @@
     .hand{
         display: none;
     }
+
+    section{
+        overflow-x: hidden;
+    }
 }
