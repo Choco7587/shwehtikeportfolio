@@ -271,7 +271,7 @@ html::-webkit-scrollbar-thumb {
 .right-nav{
     display: flex;
     text-align: center;
-    
+    padding: 20px 30px 20px 40px;
 }
 
 .right-nav a{

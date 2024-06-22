@@ -32,18 +32,22 @@ const navSlide = ()=> {
 };
 navSlide();
 
-const toggleBtn = {
-    selector: '.toggle-btn', // Your class or id selector for wrapper.
-        children: [
-                {
-                    className: '.btn-toggle',
-                    rotate: { x: 0, y: 0, z: 0 },    // Rotate
-                    translate: { x: 20, y: 20, z: 0 }, // Translate
-                    transition: 'all 0.2s ease',     // Transition default is 'all 0.2s ease'
-                },
-        ]
-  };
-GHover(toggleBtn);
+toggle.addEventListener('click', ()=> {
+    sidenav.style.display = "block";
+});
+
+// const toggleBtn = {
+//     selector: '.toggle-btn', // Your class or id selector for wrapper.
+//         children: [
+//                 {
+//                     className: '.btn-toggle',
+//                     rotate: { x: 0, y: 0, z: 0 },    // Rotate
+//                     translate: { x: 20, y: 20, z: 0 }, // Translate
+//                     transition: 'all 0.2s ease',     // Transition default is 'all 0.2s ease'
+//                 },
+//         ]
+//   };
+// GHover(toggleBtn);
 
 var today = new Date();
 

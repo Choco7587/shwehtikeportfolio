@@ -11,6 +11,10 @@
 
 @media (max-width: 989px) {
 
+    .work{
+        min-height: 110vh;
+    }
+
     .footer{
         padding-left: 30px;
         padding-right: 30px;
@@ -344,6 +348,9 @@
 }
 
 @media (max-width: 391px){
+    section{
+        overflow: hidden;
+    }
 
     .work {
         height: auto;
@@ -384,6 +391,10 @@
     }
     .aboutme-btn{
         margin-top: 20px;
+    }
+
+    .contact{
+        height: 100vh;
     }
 }
 @media (max-width: 348px) {
